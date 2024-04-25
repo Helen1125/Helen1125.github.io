@@ -1,17 +1,54 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* 一份一份 /repeat(5,1fr)重複幾次這樣 */ 
+
+
+/* .heroimg{
+    background-image: url(IV8-02.jpg);
+    background-size: cover;
+    
+}  */
+.heroimg2{
+    background-image: url(B3_工作區域\ 1.jpg);
+    background-size: cover;
+    color: aliceblue;
+    letter-spacing: 5px;
 }
-.item{
-    padding: 80px;
-    font-family: sans-serif;
-    font-size: 20px;
+.word{
+    background-image: url(black.jpg);
+    padding-top: 20%;
+    /* background-color: #2c2d2d; */
+    color: aliceblue;
+    width: 100%;
+    height: 800px;
 }
-.container .item:nth-child(odd) {
-    background: #26c2a8;
+ .container1{
+    /* background-color: #2c2d2d; */
+    padding-top: 10%;
+    width: 90%;
+    margin: 50px auto 0;
+}  
+.container3{
+    padding-top: 20%;
 }
-/* 分積偶數顏色 */
-.container .item:nth-child(even) {
-    background: #cf5e3e;
+.container4{
+    padding-top: 10%;
+}
+
+.container5-fluid{    
+    /* background-color: #2c2d2d;
+    width: 100%;
+    height: 80px; */
+    color: #ffffff;
+    /* align-content:center */
+   
+}
+
+.text-mary {
+    color: aliceblue;
+}
+.btn-mary {
+    background-color: aqua;
+    color: aliceblue;
+}
+.btn-mary:hover{
+    background-color: aqua;
+    color: aliceblue;
 }
