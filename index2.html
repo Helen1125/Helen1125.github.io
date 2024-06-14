@@ -1,120 +1,322 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="TW">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chaos:Ｏ</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="bg w-100 vh-100">
-        <div class="button1">
-            <p>
-                <button class="btn btn-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1">
-                    Enter
-                </button>
-            </p>
-            <div style="min-height: 120px;">
-                <div class="collapse collapse-horizontal" id="collapseWidthExample1">
-                    <div class="card card-body" style="width: 300px;">
-                        This is some placeholder content for a horizontal collapse. It's hidden by default and shown
-                        when triggered.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="button2">
-            <p>
-                <button class="btn btn-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
-                    Enter
-                </button>
-            </p>
-            <div style="min-height: 120px;">
-                <div class="collapse collapse-horizontal" id="collapseWidthExample2">
-                    <div class="card card-body" style="width: 300px;">
-                        This is some placeholder content for a horizontal collapse. It's hidden by default and shown
-                        when triggered.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="enter button">
-            <a class="btn btn-light" href="index.html" role="button">Enter</a>
-        </div>
-        <div class="button3">
-            <p>
-                <button class="btn btn-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
-                    Enter
-                </button>
-            </p>
-            <div style="min-height: 120px;">
-                <div class="collapse collapse-horizontal" id="collapseWidthExample3">
-                    <div class="card card-body" style="width: 300px;">
-                        This is some placeholder content for a horizontal collapse. It's hidden by default and shown
-                        when triggered.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="button4">
-            <p>
-                <button class="btn btn-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample4" aria-expanded="false" aria-controls="collapseWidthExample4">
-                    Enter
-                </button>
-            </p>
-            <div style="min-height: 120px;">
-                <div class="collapse collapse-horizontal" id="collapseWidthExample4">
-                    <div class="card card-body" style="width: 300px;">
-                        This is some placeholder content for a horizontal collapse. It's hidden by default and shown
-                        when triggered.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="button5">
-            <button class="btn btn-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample5" aria-expanded="false" aria-controls="collapseWidthExample5">
-                    Enter
+    <nav class="navbar  sticky-top navbar-expand-lg bg-body-tertiary" bg-dark data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">Chaos：Ｏ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            
-            <div style="min-height: 120px;">
-                <div class="collapse collapse-horizontal" id="collapseWidthExample5">
-                    <div class="card card-body" style="width: 300px;">
-                        This is some placeholder content for a horizontal collapse. It's hidden by default and shown
-                        when triggered.
-                    </div>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            產品介紹
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">甜點</a></li>
+                            <li><a class="dropdown-item" href="#">飲品</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">食材來源</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">訂購指南</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">關於我們</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
         </div>
-        <div class="button6">
-            <button class="btn btn-light" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseWidthExample6" aria-expanded="false" aria-controls="collapseWidthExample6">
-                Enter
-            </button>
-            <div style="min-height: 120px;">
-                <div class="collapse collapse-horizontal" id="collapseWidthExample6">
-                    <div class="card card-body" style="width: 300px;">
-                        This is some placeholder content for a horizontal collapse. It's hidden by default and shown
-                        when triggered.
-                    </div>
-                </div>
-            </div>
-        </div>
+    </nav>
 
+
+    <!-- 大圖大圖 -->
+    
+    <div class=" heroimg w-100  justify-content-center ">
+        <img src="IV8-02.jpg" class="img-fluid" alt="...">
+        
+    </div>
+    <!-- 引言 -->
+    <div class=" heroimg2 w-100 vh-100  d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col">
+                    <div class="slogan- text-center">
+                        <h1></h1>
+                        <p>耶和華吩咐他說，園中各樣樹上的果子，你可以隨意喫。只是分別善惡樹上的果子，你不可喫，因爲你喫的日子必定死。</p>
+                        <p>——創世紀2:16-17</p>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
     </div>
 
+    <!-- 輪播照片 -->
+
+    <div class="container1 my-5 ">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="thundering-choco.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>天雷地火巧克力</h5>
+                                <p>轟，讓平淡生活精彩一下</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="apple.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>禁忌果實</h5>
+                                <p>夏娃與那顆蘋果</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="apiece-of-earth.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>A piece of earth</h5>
+                                <p>吃得到百分百加州陽光與春天大地</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="ocean yougurt.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>加勒比海優格</h5>
+                                <p>純天然加勒比海洋萃取製作</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-1">
+            </div>
+            <div class="col ">
+                <h3>Chaos：Ｏ</h3>
+                <p>Chaos：Ｏ致力於打造奇幻、舒適、能重複品嚐特別感受的甜點店。</p>
+                <p>無論是天雷地火巧克力、夏娃與那顆蘋果抑或是一小塊加州蛋糕，都能讓您在香氣、味道與口感上立刻品嘗到其真實又富有層次，如同店裡宗旨，每份甜點都由其特別之處或額外功用，點餐前請先詳閱菜單說明。</p><br>
+                <p>
+                </p>
+                <h4>台南神農旗艦店</h4>
+                <p>700台南市中西區神農街55號</p>
+                <p> 星期二～日 10:00~17:00</p>
+                <p>06 2369765</p><br>
+                <h4>台東太麻里店</h4>
+                <p>籌備中</p>
+            </div>
+
+            <div class="col-1">
+            </div>
+        </div>
+    </div>
+
+    <!-- 內容 -->
+    <!-- <div class="container my-5">
+        <div class="row">
+            <div class="col-5">
+                <img src="IMG_0753.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cum inventore, repellat blanditiis sed
+                    vero.</p>
+            </div>
+        </div> -->
+
+    <!-- 卡片 -->
+    <div class="container3 my-5">
+        <div class="container text-center">
+            <h2>新品上市</h2>
+        </div>
+        <div class="container my-5 ">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <img src="amazing-cupcake.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">可可愛愛夢幻晴天杯子蛋糕</h5>
+                            <p class="card-text">內含卡士達蘋果醬，酸甜感滿滿，配上早晨6:35分汲取太陽、獨角獸嘔吐過的雲，約五到十分鐘即可感受到放鬆、幸福感，但三天內偶有輕微暈眩，放屁有烤櫻桃味。 </p>
+                            <p></p>
+                            <a href="#" class="btn btn-primary"> 食材來源</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="rose chips.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">南加州奧塞湖邊自然生長玫瑰片</h5>
+                            <p class="card-text">自然生長玫瑰片，觸感嬌嫩，嚐起來脆口，既美觀又美味，還能一片片剝下來知道對方喜不喜歡自己，屢試不爽。 </p>
+                            <p>
+                             <br>
+                            </p>
+                            <a href="#" class="btn btn-primary"> 食材來源</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="acup-of-ocean.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">太平洋奶昔</h5>
+                            <p class="card-text">黑鮪魚群迴遊前收集的凌晨太平洋，海味略重，但能瞬間讓大腦、心靈感受到廣闊海洋與無數生命。 </p>
+                            <p><br><br></p>
+                            <a href="#" class="btn btn-primary"> 食材來源</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 那個按鈕 -->
+    <!-- <div class="container my-5 ">
+        <div class="row justify-content-center">
+            <!-- 或col就好 -->
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- QA -->
+    <div class="container4 my-5">
+        <div class="container text-center">
+            <h2>常見問題</h2>
+        </div>
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    對獨角獸毛過敏可以吃可可愛愛夢幻晴天杯子蛋糕嗎？
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>不行</strong> 嘔吐物仍有參雜毛髮風險，嚴重乃至皮膚出現五顏六色斑點
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    食材皆天然、無添加嗎？
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>是</strong> 絕對百分百人工或自然培育生長並人工合法摘採、取得
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                   甜點皆可網購嗎？
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>部分</strong>為保持食材新鮮及食用體驗，建議天雷地火巧克力當場食用，為保陰轉晴的風險
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 網頁頁尾 -->
+    <div class="container5-fluid bg-dark  py-5 ">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col">
+                <h3>Chaos ：Ｏ</h3> <br>
+                <h6>關於Chaos</h6>
+                <h6>全站條款</h6>
+                <h6>聯絡我們</h6>
+                <h6>廣告合作</h6>
+                <h6>人力招募</h6>
+            </div>
+            <div class="col-7">
+                <h5>台南神農旗艦店</h5><br>
+                <h6>700台南市中西區神農街55號</h6>
+                <h6>星期二～日 10:00~17:00</h6>
+                <h6>06 2369765</h6>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+    </script>
 </body>
 
 </html>
