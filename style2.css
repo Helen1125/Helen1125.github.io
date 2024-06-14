@@ -1,0 +1,27 @@
+.bg {
+    background-color: #000000;
+    margin: 0;
+}
+.button1 {
+    transform: translate(50px, 30px);
+}
+.button2 {
+    transform: translate(150px, 20px);
+}
+.enter button {
+    transform: translate(150px, 60px)
+
+}
+.button3 {
+    transform: translate(420px, 60px)
+
+}
+.button4 {
+    transform: translate(750px, 60px)
+}
+.button5 {
+    transform: translate(1050px, 10px)
+}
+.button6 {
+    transform: translate(50px, 5px)
+}
