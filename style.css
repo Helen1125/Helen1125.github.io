@@ -1,15 +1,79 @@
 .bg {
-    background-color: #000000;
+    background-image: url(bg7_工作區域\ 1\ 複本.jpg);
+    background-size: cover;
     margin: 0;
 }
+
+.word{
+    color: #f9f9f9;
+    transform: translate(42vw, 50vh);
+    text-shadow: 0px 0px 3px rgb(253, 253, 253);
+    animation: fade 2s linear 0s infinite;
+}
+
+.line1{
+    width: 19%;
+    border-bottom:  1px solid #ffffff;
+    transform: translate(42vw, 43vh);
+    text-shadow: 0px 0px 3px rgb(253, 253, 253);
+    animation: fade 2s linear 0s infinite;
+}
+.line2{
+    width: 19%;
+    border-bottom:  1px solid #ffffff;
+    transform: translate(42vw, 51vh);
+    text-shadow: 0px 0px 3px rgb(253, 253, 253);
+    animation: fade 2s linear 0s infinite;
+}
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
 .button1 {
-    transform: translate(790px, 90px);
+    transform: translate(26vw, 0vh);
 }
 .button2 {
-    transform: translate(250px, 20px);
+    transform: translate(58vw, -10vh);
 }
 .enter button {
-    transform: translate(150px, 60px)
+    transform: translate(19vw, 60vh)
+
+}
+.button3 {
+    transform: translate(12vw, 16vh)
+
+}
+.button4 {
+    transform: translate(55vw, 10vh)
+}
+.button5 {
+    transform: translate(90vw, 2vh)
+}
+.button6 {
+    transform: translate(30vw, -25vh)
+} 
+.button7 {
+    transform: translate(32vw, -95vh)
+} 
+.button8 {
+    transform: translate(76vw, -80vh)
+} 
+.button9 {
+    transform: translate(80vw, -150vh)
+} 
+/* .button1 {
+    transform: translate(790px, 30px);
+}
+.button2 {
+    transform: translate(250px, 5px);
+}
+.enter button {
+    transform: translate(190px, 60px)
 
 }
 .button3 {
@@ -21,7 +85,7 @@
 }
 .button5 {
     transform: translate(960px, 10px)
-}
-.button6 {
-    transform: translate(50px, 25px)
-}
+} */
+/* .button6 {
+    transform: translate(50, 20vh)
+} */
